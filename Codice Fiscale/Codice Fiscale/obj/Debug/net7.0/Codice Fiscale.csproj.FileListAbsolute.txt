@@ -1,0 +1,14 @@
+C:\Users\PAZZAGLI.ANGELICA\Documents\Visual Studio 2022\Codice Fiscale\Codice Fiscale\bin\Debug\net7.0\Codice Fiscale.exe
+C:\Users\PAZZAGLI.ANGELICA\Documents\Visual Studio 2022\Codice Fiscale\Codice Fiscale\bin\Debug\net7.0\Codice Fiscale.deps.json
+C:\Users\PAZZAGLI.ANGELICA\Documents\Visual Studio 2022\Codice Fiscale\Codice Fiscale\bin\Debug\net7.0\Codice Fiscale.runtimeconfig.json
+C:\Users\PAZZAGLI.ANGELICA\Documents\Visual Studio 2022\Codice Fiscale\Codice Fiscale\bin\Debug\net7.0\Codice Fiscale.dll
+C:\Users\PAZZAGLI.ANGELICA\Documents\Visual Studio 2022\Codice Fiscale\Codice Fiscale\bin\Debug\net7.0\Codice Fiscale.pdb
+C:\Users\PAZZAGLI.ANGELICA\Documents\Visual Studio 2022\Codice Fiscale\Codice Fiscale\obj\Debug\net7.0\Codice Fiscale.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PAZZAGLI.ANGELICA\Documents\Visual Studio 2022\Codice Fiscale\Codice Fiscale\obj\Debug\net7.0\Codice Fiscale.AssemblyInfoInputs.cache
+C:\Users\PAZZAGLI.ANGELICA\Documents\Visual Studio 2022\Codice Fiscale\Codice Fiscale\obj\Debug\net7.0\Codice Fiscale.AssemblyInfo.cs
+C:\Users\PAZZAGLI.ANGELICA\Documents\Visual Studio 2022\Codice Fiscale\Codice Fiscale\obj\Debug\net7.0\Codice Fiscale.csproj.CoreCompileInputs.cache
+C:\Users\PAZZAGLI.ANGELICA\Documents\Visual Studio 2022\Codice Fiscale\Codice Fiscale\obj\Debug\net7.0\Codice Fiscale.dll
+C:\Users\PAZZAGLI.ANGELICA\Documents\Visual Studio 2022\Codice Fiscale\Codice Fiscale\obj\Debug\net7.0\refint\Codice Fiscale.dll
+C:\Users\PAZZAGLI.ANGELICA\Documents\Visual Studio 2022\Codice Fiscale\Codice Fiscale\obj\Debug\net7.0\Codice Fiscale.pdb
+C:\Users\PAZZAGLI.ANGELICA\Documents\Visual Studio 2022\Codice Fiscale\Codice Fiscale\obj\Debug\net7.0\Codice Fiscale.genruntimeconfig.cache
+C:\Users\PAZZAGLI.ANGELICA\Documents\Visual Studio 2022\Codice Fiscale\Codice Fiscale\obj\Debug\net7.0\ref\Codice Fiscale.dll

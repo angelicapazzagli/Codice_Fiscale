@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\39333\\OneDrive\\Documenti\\Visual Studio 2022\\Codice_Fiscale\\Codice Fiscale\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1BB6CF3-2524-4998-B18D-A83CBD406E0F}|Codice Fiscale\\Codice Fiscale.csproj|c:\\users\\39333\\onedrive\\documenti\\visual studio 2022\\codice_fiscale\\codice fiscale\\codice fiscale\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1BB6CF3-2524-4998-B18D-A83CBD406E0F}|Codice Fiscale\\Codice Fiscale.csproj|solutionrelative:codice fiscale\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\39333\\OneDrive\\Documenti\\Visual Studio 2022\\Codice_Fiscale\\Codice Fiscale\\Codice Fiscale\\Program.cs",
+              "RelativeDocumentMoniker": "Codice Fiscale\\Program.cs",
+              "ToolTip": "C:\\Users\\39333\\OneDrive\\Documenti\\Visual Studio 2022\\Codice_Fiscale\\Codice Fiscale\\Codice Fiscale\\Program.cs",
+              "RelativeToolTip": "Codice Fiscale\\Program.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAArwDoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T14:06:30.528Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

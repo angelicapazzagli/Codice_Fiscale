@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PAZZAGLI.ANGELICA\\Documents\\Visual Studio 2022\\Codice Fiscale\\Codice Fiscale\\Codice Fiscale.csproj": {}
+    "C:\\Users\\PAZZAGLI.ANGELICA\\Documents\\Visual Studio 2022\\Codice_Fiscale\\Codice Fiscale\\Codice Fiscale\\Codice Fiscale.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PAZZAGLI.ANGELICA\\Documents\\Visual Studio 2022\\Codice Fiscale\\Codice Fiscale\\Codice Fiscale.csproj": {
+    "C:\\Users\\PAZZAGLI.ANGELICA\\Documents\\Visual Studio 2022\\Codice_Fiscale\\Codice Fiscale\\Codice Fiscale\\Codice Fiscale.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PAZZAGLI.ANGELICA\\Documents\\Visual Studio 2022\\Codice Fiscale\\Codice Fiscale\\Codice Fiscale.csproj",
+        "projectUniqueName": "C:\\Users\\PAZZAGLI.ANGELICA\\Documents\\Visual Studio 2022\\Codice_Fiscale\\Codice Fiscale\\Codice Fiscale\\Codice Fiscale.csproj",
         "projectName": "Codice Fiscale",
-        "projectPath": "C:\\Users\\PAZZAGLI.ANGELICA\\Documents\\Visual Studio 2022\\Codice Fiscale\\Codice Fiscale\\Codice Fiscale.csproj",
+        "projectPath": "C:\\Users\\PAZZAGLI.ANGELICA\\Documents\\Visual Studio 2022\\Codice_Fiscale\\Codice Fiscale\\Codice Fiscale\\Codice Fiscale.csproj",
         "packagesPath": "C:\\Users\\PAZZAGLI.ANGELICA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PAZZAGLI.ANGELICA\\Documents\\Visual Studio 2022\\Codice Fiscale\\Codice Fiscale\\obj\\",
+        "outputPath": "C:\\Users\\PAZZAGLI.ANGELICA\\Documents\\Visual Studio 2022\\Codice_Fiscale\\Codice Fiscale\\Codice Fiscale\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PAZZAGLI.ANGELICA\\AppData\\Roaming\\NuGet\\NuGet.Config",

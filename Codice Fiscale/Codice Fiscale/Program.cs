@@ -18,121 +18,103 @@ Console.WriteLine("Cognome da nubile");
 string cognome1 = Console.ReadLine();
 Console.WriteLine("Nome");
 string nome1 = Console.ReadLine();
-Console.WriteLine("Anno di nascita");
-string anno1 = Console.ReadLine();
-Console.WriteLine("Mese di nascita (caratteri)");
-string mese = Console.ReadLine();
-Console.WriteLine("Giorno di nascita (cifre)");
-int giorno = Int32.Parse(Console.ReadLine());
-Console.WriteLine("Sesso");
+Console.WriteLine("Data di nascita (GG/MESE/ANNO) es. 30/12/2008");
+string data = Console.ReadLine();
+Console.WriteLine("Sesso (m o f)");
 string sesso = Console.ReadLine();
 string cognome = cognome1.Replace(" ", "");
 string nome = nome1.Replace(" ", "");
 string c_cognome = "", v_cognome = "", codice_fiscale = "", c_nome = "", v_nome = "";
 int nvc = 0, ncc = 0, nvn = 0, ncn = 0;
+string[] mesi = { "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12" };
+string[] l_mesi = { "a", "b", "c", "d", "e", "h", "l", "m", "p", "r", "s", "t" };
 vc(cognome, ref v_cognome, ref c_cognome, ref nvc, ref ncc);
-Console.WriteLine(c_cognome);
-Console.WriteLine(v_cognome);
+Console.WriteLine();
+Console.WriteLine();
 if (ncc >= 3)
 {
-    codice_fiscale += c_cognome[0] + c_cognome[1] + c_cognome[2];
+    codice_fiscale += c_cognome[0];
+    codice_fiscale += c_cognome[1];
+    codice_fiscale +=  c_cognome[2];
 }
 else if (ncc == 2)
 {
-    codice_fiscale += c_cognome[0] + c_cognome[1] + v_cognome[0];
+    codice_fiscale += c_cognome[0];
+    codice_fiscale += c_cognome[1];
+    codice_fiscale += v_cognome[0];
 }
 else if (ncc == 1 && nvc == 2)
 {
-    codice_fiscale += c_cognome[0] + v_cognome[0] + v_cognome[1];
+    codice_fiscale += c_cognome[0];
+    codice_fiscale += v_cognome[0];
+    codice_fiscale += v_cognome[1];
 }
 else if (ncc == 1 && nvc == 1)
 {
-    codice_fiscale += c_cognome[0] + v_cognome[0] + "x";
+    codice_fiscale += c_cognome[0];
+    codice_fiscale += v_cognome[0];
+    codice_fiscale += "x";
 }
 else if (nvc == 2)
 {
-    codice_fiscale += v_cognome[0] + v_cognome[1] + "x";
+    codice_fiscale += v_cognome[0];
+    codice_fiscale += v_cognome[1];
+    codice_fiscale += "x";
 }
 vc(nome, ref v_nome, ref c_nome, ref nvn, ref ncn);
 if (ncn >= 4)
 {
-    codice_fiscale += c_nome[0] + c_nome[2] + c_nome[3];
+    codice_fiscale += c_nome[0];
+    codice_fiscale +=  c_nome[2];
+    codice_fiscale += c_nome[3];
 }
 else if (ncn == 3)
 {
-    codice_fiscale += c_nome[0] + c_cognome[1] + c_nome[2];
+    codice_fiscale += c_nome[0];
+    codice_fiscale += c_cognome[1];
+    codice_fiscale += c_nome[2];
 }
 else if (ncn == 2)
 {
-    codice_fiscale += c_nome[0] + c_nome[1] + v_nome[0];
+    codice_fiscale += c_nome[0];
+    codice_fiscale += c_nome[1];
+    codice_fiscale += v_nome[0];
 }
 else if (ncn == 1 && nvn == 2)
 {
-    codice_fiscale += c_nome[0] + v_nome[0] + "x";
+    codice_fiscale += c_nome[0];
+    codice_fiscale += v_nome[0];
+    codice_fiscale += "x";
 }
 else if (ncn == 1 && nvn == 1)
 {
-    codice_fiscale += v_nome[0] + v_nome[1] + "x";
+    codice_fiscale += v_nome[0];
+    codice_fiscale += v_nome[1];
+    codice_fiscale += "x";
 }
 else if (nvn == 2)
 {
-    codice_fiscale += v_nome[0] + v_nome[1] + "x";
+    codice_fiscale += v_nome[0];
+    codice_fiscale += v_nome[1];
+    codice_fiscale += "x";
 }
-string anno = anno1.Substring(2);
+string anno = data.Substring(8);
 codice_fiscale += anno;
-if(mese == "gennaio")
+string mese = data.Substring(3, 5);
+for(int i = 0; i < mesi.Length; i++)
 {
-    codice_fiscale += "a";
+    if (mese.Contains(mesi[i]))
+    {
+        codice_fiscale += l_mesi[i];
+    }
 }
-else if (mese == "febbraio")
-{
-    codice_fiscale += "b";
-}
-else if (mese == "marzo")
-{
-    codice_fiscale += "c";
-}
-else if (mese == "aprile")
-{
-    codice_fiscale += "d";
-}
-else if (mese == "maggio")
-{
-    codice_fiscale += "e";
-}
-else if (mese == "giugno")
-{
-    codice_fiscale += "h";
-}
-else if (mese == "luglio")
-{
-    codice_fiscale += "l";
-}
-else if (mese == "agosto")
-{
-    codice_fiscale += "m";
-}
-else if (mese == "settembre")
-{
-    codice_fiscale += "p";
-}
-else if (mese == "ottobre")
-{
-    codice_fiscale += "r";
-}
-else if (mese == "novembre")
-{
-    codice_fiscale += "s";
-}
-else if (mese == "dicembre")
-{
-    codice_fiscale += "t";
-}
-if(sesso == "femmina")
+string giorno1 = data.Substring(0, 2);
+int giorno = int.Parse(giorno1);
+if(sesso == "f")
 {
     codice_fiscale += (giorno + 40);
 }
-else if(sesso == "maschio")
+else 
 {
     if(giorno < 10)
     {

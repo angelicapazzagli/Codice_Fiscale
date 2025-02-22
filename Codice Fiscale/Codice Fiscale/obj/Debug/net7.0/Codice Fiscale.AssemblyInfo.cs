@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Codice Fiscale")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf3fd1930a6f9785df3b1b161ecf20670885bb9e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Codice Fiscale")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Codice Fiscale")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
